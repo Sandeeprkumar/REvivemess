@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" href="./login style.css">
+</head>
+<body>
+
+	<!-- landing nav section -->
+
+    <nav class="navbar" style="height: 50px;">
+        <div class="navbar-left">
+            <a href=""><img src="../Landing page/LOGO.png" alt="logo" class="icon"></a>
+        </div>
+        <div class="navbar-center">
+            <a href="../Landing page/landing page.html">Home</a>
+            <a href="../categories/categories.html">categories</a>
+            <a href="../About Us/About us.html">About Us</a>
+        </div>
+        <div class="navbar-right">
+            <a href="../cart/add to cart.html"><img src="../cart/cart.png" alt="Bag" class="icon"></a>
+            <a href="../Sign-in/login.html"><img src="../Landing page/account.png" alt="Account" class="icon"></a>
+        </div>
+    </nav>
+
+	<!-- login section -->
+	<div class="login-container">
+        <div class="top-box">
+            <a href="../Landing page/landing page.html"><button class="back-button">
+                <img src="../cart/add to cart left arrow.png" alt="Back">
+            </button></a>
+		<h2>Login</h2>
+		<form id="login-form">
+      <input type="full name" placeholder="  Enter your name" id="full name">
+			<input type="text" placeholder="   Email or Phone Number" id="username">
+			<input type="password" placeholder="   Password" id="password">
+			<button id="login-btn">Login</button>
+			<p>Don't have an account? <a href="./register.html">Register</a></p>
+		</form>
+	</div>
+
+	<script src="./login script.js"></script>
+</body>
+</html>
